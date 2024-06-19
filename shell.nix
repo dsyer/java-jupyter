@@ -15,8 +15,6 @@ mkShell {
     unset SOURCE_DATE_EPOCH
     pip install --prefix=.venv jupyter
     pip install --prefix=.venv jbang
-    pip install --prefix=.venv bash_kernel
-    python -m bash_kernel.install --sys-prefix
   '';
 
   postShellHook = ''
