@@ -15,14 +15,10 @@
  */
 package com.example;
 
-import java.util.List;
-
-import io.github.spencerpark.ijava.JavaKernel;
-
 public class Application {
 
 	public static void main(String[] args) {
-		new JavaKernel().getMavenResolver().addMavenDependencies(List.of("org.slf4j:slf4j-simple:2.0.13"));
+		System.err.println("Hello World!");
 	}
-	
+
 }

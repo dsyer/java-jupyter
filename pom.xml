@@ -17,11 +17,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.github.waikato.thirdparty</groupId>
-			<artifactId>ijava</artifactId>
-			<version>1.3.0</version>
-		</dependency>
 	</dependencies>
 
 </project>
