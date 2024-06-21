@@ -15,14 +15,15 @@
  */
 package com.example;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
-@SpringBootApplication
-public class Application {
+@Component
+public class Startup implements CommandLineRunner {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("Hello, Runner!");
 	}
-
+	
 }

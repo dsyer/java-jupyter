@@ -1,0 +1,12 @@
+{
+	"aliases": {
+		"app": {
+			"script-ref": "src/main/java/com/example/Application.java",
+			"description": "Application",
+			"classpaths": [ "target/classes" ],
+			"dependencies": [
+				"com.example:experiment:1.0.0-SNAPSHOT"
+			]
+		}
+	}
+}
