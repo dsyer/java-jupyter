@@ -7,6 +7,11 @@
 				"com.example:experiment:1.0.0-SNAPSHOT"
 			],
 			"files" : [ "src/main/resources", "target/classes" ]
+		},
+		"db" : {
+			"script-ref": "h2@jbanghub/h2",
+			"description": "H2 Database",
+			"arguments": ["-pgAllowOthers", "-tcpAllowOthers"]
 		}
 	}
 }
