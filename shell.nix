@@ -8,6 +8,7 @@ mkShell {
     python3Packages.venvShellHook
     python3Packages.ipython
     python3Packages.ipykernel
+    python3Packages.huggingface-hub
   ];
 
   venvDir = "./.venv";
